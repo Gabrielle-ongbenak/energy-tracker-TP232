@@ -1,0 +1,12 @@
+# Python
+pycache/
+*.pyc
+venv/
+env/
+
+# Base de données
+*.db
+*.sqlite3
+
+# IDE
+.vscode/

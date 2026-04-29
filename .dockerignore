@@ -1,0 +1,21 @@
+# Ne pas copier l'environnement virtuel local
+venv/
+env/
+.venv/
+
+# Ne pas copier les fichiers de sauvegarde Git
+.git
+.gitignore
+
+# Ne pas copier le cache Python
+**/pycache
+**/*.pyc
+
+# Ne pas copier la base de données locale (Docker en créera une propre)
+*.db
+*.sqlite3
+
+# Divers
+.vscode/
+Dockerfile
+.dockerignore 
